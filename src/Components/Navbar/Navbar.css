@@ -1,0 +1,154 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15);
+  height: 12vh;
+  z-index: 1234567890;
+  position: sticky;
+  font-weight: 500;
+  /* background-color: red; */
+  top: 0;
+}
+
+.navbar img {
+  width: 160px;
+  margin-top: 0.6rem;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  text-transform: uppercase;
+  font-family: "poppins";
+}
+
+.menu a {
+  color: #000;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: all 1s ease-in-out;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.menu li {
+  margin: 2rem 0;
+}
+
+.active {
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu a:hover {
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll-btn-img {
+  max-width: 30px;
+  min-width: 30px;
+}
+
+.header-menu {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .navbar-right {
+    display: none;
+    background-color: red;
+  }
+
+  .header-menu {
+    padding-right: 2rem;
+    display: block;
+  }
+  .navbar-logo-left {
+    background-color: red;
+    padding-left: 2rem;
+  }
+  .navbar {
+    /* justify-content: space-between; */
+    padding: 1rem 3rem;
+  }
+  .button {
+    background-color: red;
+  }
+  .menu a {
+    font-size: 16px;
+  }
+
+  .menu li {
+    display: block;
+    /* line-height: 5px; */
+  }
+
+  .menu {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    /* background-color: #2a2a2a; */
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    padding: 0 4em;
+  }
+
+  .navbar {
+    width: 1080px;
+  }
+}
+
+@media (max-width: 778px) {
+  .navbar-right {
+    display: none;
+    background-color: red;
+  }
+
+  .header-menu {
+    padding-right: 2rem;
+    display: block;
+  }
+  .navbar-logo-left {
+    background-color: red;
+    padding-left: 2rem;
+  }
+  .navbar {
+    /* justify-content: space-between; */
+    padding: 1rem 3rem;
+  }
+  .button {
+    background-color: red;
+  }
+  .menu a {
+    font-size: 16px;
+  }
+
+  .menu li {
+    display: block;
+    /* line-height: 5px; */
+  }
+
+  .menu {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    /* background-color: #2a2a2a; */
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    padding: 0 4em;
+    background-color: red;
+  }
+  .navbar{
+    width: 786px;
+    background-color: red;
+  }
+}

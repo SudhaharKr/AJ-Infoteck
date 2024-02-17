@@ -1,0 +1,109 @@
+.digital-marketing-page {
+  width: 1100px;
+  /* height: 100vh; */
+  margin: auto;
+}
+
+.digital-marketing-page-title-container {
+  padding-top: 3rem;
+  text-align: center;
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-order-container,
+.middle-order-container,
+.bottom-order-container {
+  width: 1100px;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.branding-container .img,
+.logo-container .img,
+.web-container .img,
+.app-container .img,
+.seo-container .img,
+.email-container .img,
+.social-media-container .img,
+.influencer-marketing-container .img,
+.graphic-design-container .img {
+  width: 310px;
+  height: auto;
+}
+
+.branding-container,
+.logo-container,
+.web-container,
+.app-container,
+.seo-container,
+.email-container,
+.social-media-container,
+.influencer-marketing-container,
+.graphic-design-container {
+  width: 360px;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 0.0625rem solid rgb(222, 226, 230);
+}
+
+.branding-container h1,
+.logo-container h1,
+.web-container h1,
+.app-container h1,
+.seo-container h1,
+.email-container h1,
+.social-media-container h1,
+.influencer-marketing-container h1,
+.graphic-design-container h1 {
+  text-transform: uppercase;
+  width: 360px;
+  padding: 0 1rem;
+  text-align: center;
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.branding-container p,
+.logo-container p,
+.web-container p,
+.app-container p,
+.seo-container p,
+.email-container p,
+.social-media-container p.influencer-marketing-container p,
+.graphic-design-container p {
+  padding: 1rem 0;
+}
+
+.modal {
+  width: 800px;
+}
+
+.brandcenter,
+.logocenter {
+  text-align: center;
+}
+
+.brandcenter p,
+.logocenter p {
+  text-align: justify;
+  padding: 1rem;
+}
+.buttonimg {
+  width: 400px;
+}
+
+.btn {
+  margin: 0 6rem;
+  background-color: #0f089f !important;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #e6166a !important;
+  transition: all 1s ease-in-out;
+}

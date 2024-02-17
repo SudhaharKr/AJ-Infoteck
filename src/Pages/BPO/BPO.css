@@ -1,0 +1,35 @@
+.bpo-page {
+  width: 1100px;
+  margin: auto;
+}
+
+.bpo-page-sec1-container,.bpo-page-sec2-container,.bpo-page-sec3-container{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+}
+
+.img {
+  padding: 3rem 0;
+  width: 500px;
+  height: 100%;
+}
+
+.voice-process,.non-voice-process,.data-entry-process{
+  padding: 0 3rem;
+}
+
+.voice-process h1,.non-voice-process h1,.data-entry-process h1{
+  margin: 3rem 0;
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.voice-process p,.non-voice-process p,.data-entry-process p{
+  width: 480px;
+  padding-bottom: 1rem;
+  color: rgb(0 0 0 / 61%);
+  text-align: justify;
+}
+
+

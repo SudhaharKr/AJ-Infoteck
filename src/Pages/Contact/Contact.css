@@ -1,0 +1,33 @@
+.contact-page-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.contact-page-container h1 {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-form-container {
+  width: 400px;
+  padding: 1rem;
+}
+
+.contact-right-image .img {
+  /* margin: 0 560px; */
+  margin: 3rem;
+}
+
+.contact-btn {
+  margin: 0 9rem;
+  border: none !important;
+  outline: none !important;
+}
+
+.contact-form-container-table{
+  display: flex;
+  gap: 8rem;
+}

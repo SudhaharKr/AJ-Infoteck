@@ -1,0 +1,88 @@
+.footer-page-sec1-container{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.footer-image{
+    width: 300px;
+}
+
+.about-section{
+    width: 300px;
+}
+
+.about-section h3{
+    margin: 1rem 0;
+}
+
+.about-section p{
+    padding-bottom: 1rem;
+}
+
+.soc-med{
+    width: 36px;
+    margin: 0 7px;
+    background-color: #fff;
+}
+
+.quick-links{
+    padding: 1rem 3rem;
+    width: 300px;
+}
+.footer-menu{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-menu a:hover{
+    background: linear-gradient(150deg, #0f089f, #e6166a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-address-container{
+    width: 300px;
+}
+
+.footer-address-container h3{
+    padding: 1rem;
+}
+
+.footer-address-container p{
+    margin: -2rem 3rem;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.map-pin-icon{
+    margin: 0 1rem;
+}
+
+.footer-page-sec2-container{
+    width: 1348px;
+    background-color: #C7C7C7;
+    padding: 0.4rem;
+}
+
+.footer-page-sec2-container p{
+    text-align: center;
+}
+
+@media (max-width: 1080px) {
+    .footer{
+        width: 1080px;
+      background-color: red;
+    }
+}
+@media (max-width: 778px) {
+    .footer{
+        width: 778;
+      background-color: red;
+    }
+}

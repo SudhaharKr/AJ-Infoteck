@@ -1,0 +1,181 @@
+.about-page-sec1-container {
+  width: 1280px;
+  margin: auto;
+}
+
+.about {
+  text-align: center;
+  padding: 2rem;
+}
+
+.span{
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-page-sec1-container {
+  width: 1280px;
+  display: flex;
+  gap: 4rem;
+ }
+
+ .about-page-sec1-container h1{
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+.leftside-container {
+  width: 700px;
+}
+.leftside-container p {
+  padding: 1rem 0;
+  color: black !important;
+}
+
+.leftside-container .btn {
+  border: none;
+  outline: none;
+  margin: 0 0.1rem;
+  font-family: "poppins";
+  scroll-behavior: smooth;
+  border-radius: 4px;
+  background-color: #0f089f;
+  padding: 0.4rem 1rem;
+}
+
+.leftside-container .btn:hover {
+  background-color: #e6166a;
+  transition: 1s ease-in-out;
+}
+.leftside-container a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.image {
+  width: 500px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.about-page-sec2-container {
+  width: 1100px;
+  padding: 2rem 0;
+  margin: auto;
+}
+
+.three-main-container-boxes {
+  display: flex;
+  width: 1100px;
+  gap: 4rem;
+}
+
+.div1 h3,
+.div2 h3,
+.div3 p {
+  padding: 1rem 0;
+}
+
+.div1 p,
+.div2 p,
+.div3 p {
+  color: rgb(0 0 0 / 60%);
+}
+
+.about-page-sec3-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.sec3-leftside-container {
+  width: 500px;
+  text-align: justify;
+}
+
+.sec3-leftside-container h1{
+  background: linear-gradient(150deg, #0f089f, #e6166a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sec3-leftside-container p {
+  padding: 1rem 0;
+}
+
+.sec3-rightside-container {
+  width: 800px;
+  padding: 0 6rem;
+  gap: 2rem;
+}
+
+.sec3-top,
+.sec3-bottom {
+  display: flex;
+}
+.product,
+.innovation,
+.customer,
+.delivery {
+  width: 280px;
+  border: 0.0625rem solid rgb(222, 226, 230);
+  border-radius: 10px;
+  padding: 3rem 0;
+ 
+}
+
+.about-sec3-grid-card-icon {
+  margin: 0 7rem;
+}
+
+.product h3,
+.innovation h3,
+.customer h3,
+.delivery h3 {
+  padding: 1rem;
+}
+.product p,
+.innovation p,
+.customer p,
+.delivery p {
+  padding: 1rem;
+  text-align: justify;
+  color: rgb(0 0 0 / 60%);
+}
+
+.quality-box2 {
+  margin: 2rem;
+}
+
+.quality-box3 {
+  display: flex;
+  flex-direction: column;
+  margin: -4rem 0;
+}
+
+.quality-box4 {
+  margin: 0 2rem;
+}
+
+.quality-box1:hover{
+  /* margin: -2rem 0; */
+  transform: translateY(-30px);
+  /* height: 56.6vh; */
+  transition: all 1s ease-in-out;
+}
+.quality-box2:hover{
+  transform: translateY(-30px);
+  /* color: #fff; */
+  transition: all 1s ease-in-out;
+}
+.quality-box3:hover{
+  transform: translateY(-20px);
+  transition: all 1s ease-in-out;
+  /* color: #fff; */
+}
+
+.quality-box4:hover{
+  /* color: #fff; */
+  transform: translateY(-20px);
+  transition: all 1s ease-in-out;
+}
